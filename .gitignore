@@ -1,0 +1,55 @@
+# Ignore build directories
+/build/
+/out/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Ignore libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Ignore shared objects (shared libraries)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Ignore debug files
+*.dSYM/
+*.stackdump
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.code-workspace
