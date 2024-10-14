@@ -32,6 +32,9 @@ void direct_table_init(DirectTable* dt, int size) {
     dt->table = (int**)malloc(size * sizeof(int*));
     for (int i = 0; i < size; ++i) {
         dt->table[i] = (int*)malloc(size * sizeof(int));
+        for (int j = 0; j < size; ++j) {
+            dt->table[i][j] = 0;
+        }
     }
 }
 

@@ -1,4 +1,4 @@
-#include "game.h"
+#include "./core/game.h"
 #include <stdio.h>
 
 int get_a_vaild_move()
